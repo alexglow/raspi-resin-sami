@@ -1,0 +1,17 @@
+{
+  "name": "resin-samitest",
+  "description": "Resin app that should ideally send a Yo to SAMI",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexglow/raspi-resin-sami.git"
+  },
+  "scripts": {
+    "preinstall": "bash deps.sh"
+  },
+  "version": "0.0.3",
+  "dependencies": {
+  },
+  "engines": {
+      "node": "0.10.22"
+  }
+}
